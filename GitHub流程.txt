@@ -1,0 +1,5 @@
+git init
+git add .
+git commit -m "提交文件"
+关联github仓库 git remote add origin git@github.com:wangjiax9/beautifulDay.git（GitHub库地址）
+上传本地代码  git push -u origin master

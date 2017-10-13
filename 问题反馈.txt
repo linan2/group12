@@ -1,0 +1,15 @@
+1.1问题反馈
+1.如何判断CAN扩展帧与标准帧？
+Ans:在表 1中描述的CANToolApp接收和发送给CANTool装置的CAN信息中,
+以大写T开始的CAN信息是CAN扩展帧信息，以小写t开始的CAN信息是CAN标准帧信息。
+2.虚拟CANtool装置与CANToolAPP之间的数据如何产生？
+Ans:可以通过自己定义的数据模拟CAN总线的信息。但需要能够满足测试CAN信号的
+不同类型、排列方式及bit信息长度的Little Endian/Big Endian的需要。例如：1bit ,
+ 2bit, 4bit, 5bit, 1byte，12bit，2byte，3byte，4byte的信号的排列方式。大于1bit
+的CAN信号需要考虑signed, unsigned的数据类型。
+3是否需要CANTool装置与CANToolAPP之间实现实时的通信？
+Ans:是，需要CANTool装置与CANToolAPP之间实现实时通信。
+4.CANTool装置使用什么方式实现？
+Ans:可是使用Arduino的硬件配合串口/蓝牙来实现虚拟的CANTool装置，需要编写Arduino
+的C/C++语言程序，此方式可以适用于Android/Windows开发。或使用纯软件的com0com0虚
+拟串口方式来模拟，此方法只适用于Windows APP开发。

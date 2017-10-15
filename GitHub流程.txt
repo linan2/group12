@@ -1,5 +1,5 @@
 git init
-git add .
-git commit -m "Ìá½»ÎÄ¼ş"
-¹ØÁªgithub²Ö¿â git remote add origin git@github.com:wangjiax9/beautifulDay.git£¨GitHub¿âµØÖ·£©
-ÉÏ´«±¾µØ´úÂë  git push -u origin master
+git add .æ–‡ä»¶å.æ‰©å±•å
+git commit -m "æäº¤æ–‡ä»¶"
+å…³è”githubä»“åº“ git remote add origin git@github.com:wangjiax9/beautifulDay.gitï¼ˆGitHubåº“åœ°å€ï¼‰
+ä¸Šä¼ æœ¬åœ°ä»£ç   git push -u origin master

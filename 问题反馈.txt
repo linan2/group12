@@ -10,7 +10,6 @@ Ans:可以通过自己定义的数据模拟CAN总线的信息。但需要能够�
 3是否需要CANTool装置与CANToolAPP之间实现实时的通信？
 Ans:是，需要CANTool装置与CANToolAPP之间实现实时通信。
 4.CANTool装置使用什么方式实现？
-
 Ans:可是使用Arduino的硬件配合串口/蓝牙来实现虚拟的CANTool装置，需要编写Arduino
 的C/C++语言程序，此方式可以适用于Android/Windows开发。或使用纯软件的com0com0虚
 拟串口方式来模拟，此方法只适用于Windows APP开发。

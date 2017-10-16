@@ -4,18 +4,15 @@ import java.io.*;
 import java.net.Socket;
 
 
-
 public class talkclient {
 	public  static void main(String args[]){
 		
 		Socket socket;
 		String  s;
 		try{
-			
-			
 			socket=new Socket ("localhost",2000);
 			
-			System.out.println("Á¬½Ó³É¹¦");
+			System.out.println("è¿æ¥æˆåŠŸ");
 			
 			System.out.println("*****************************");
 			
@@ -31,10 +28,10 @@ public class talkclient {
 			
 			while(true){
 				
-				System.out.println("Ç×ÊäÈë ÄãÒª·¢ËÍµÄĞÅÏ¢");
+				System.out.println("äº²è¾“å…¥ ä½ è¦å‘é€çš„ä¿¡æ¯");
 				s=sin.readLine();
 				
-				dout.writeUTF(s);///½«  ×Ö·û´®´©¸ø  server
+				dout.writeUTF(s);///å°†  å­—ç¬¦ä¸²ç©¿ç»™  server
 				///
 				if(s.trim().equals("Bye"))break;
 				
@@ -44,7 +41,7 @@ public class talkclient {
 					System.out.println("");
 				}
 				s=din.readUTF();
-				System.out.println("server µÄĞÅÏ¢: "+s);
+				System.out.println("server çš„ä¿¡æ¯: "+s);
 				
 				if(s.trim().equals("Bye"))break;
 				

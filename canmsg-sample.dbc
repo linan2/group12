@@ -17,7 +17,7 @@ BO_ 856 CDU_1: 8 CDU
  SG_ CDU_HVACACMaxButtonStVD : 23|1@0+ (1,0) [0|1] ""  HVAC
  SG_ CDU_HVACModeButtonSt : 26|3@0+ (1,0) [0|7] ""  HVAC
  SG_ HVAC_WindExitSpd : 30|4@0+ (1,0) [0|15] ""   Vector__XXX
- SG_ CDU_HVAC_DriverTempSelect : 36|5@0+ (0.5,18) [18|32] "¡ãC"   Vector__XXX
+ SG_ CDU_HVAC_DriverTempSelect : 36|5@0+ (0.5,18) [18|32] "Â¡Ã£C"   Vector__XXX
  SG_ HVAC_PsnTempSelect : 44|5@0+ (0.5,18) [18|32] ""   Vector__XXX
  SG_ CDU_HVACCtrlModeSt : 54|3@0+ (1,0) [0|7] ""  HVAC
  SG_ CDU_ControlSt : 55|1@0+ (1,0) [0|1] ""  HVAC
@@ -69,9 +69,9 @@ BO_ 800 HVAC_1: 8 HVAC
  SG_ HVAC_EngIdleStopProhibitReq : 5|1@0+ (1,0) [0|1] ""  CDU
  SG_ HVAC_ACSt : 6|1@0+ (1,0) [0|1] ""  CDU
  SG_ HVAC_ACmaxSt : 7|1@0+ (1,0) [0|1] ""  CDU
- SG_ HVAC_CorrectedExterTemp : 15|8@0+ (0.5,-40) [-40|87.5] "¡ãC"  BCM,CDU
- SG_ HVAC_RawExterTemp : 23|8@0+ (0.5,-40) [-40|87.5] "¡ãC"  CDU
- SG_ HVAC_TempSelect : 28|5@0+ (0.5,18) [18|32] "¡ãC"  CDU
+ SG_ HVAC_CorrectedExterTemp : 15|8@0+ (0.5,-40) [-40|87.5] "Â¡Ã£C"  BCM,CDU
+ SG_ HVAC_RawExterTemp : 23|8@0+ (0.5,-40) [-40|87.5] "Â¡Ã£C"  CDU
+ SG_ HVAC_TempSelect : 28|5@0+ (0.5,18) [18|32] "Â¡Ã£C"  CDU
  SG_ HVAC_DualSt : 29|1@0+ (1,0) [0|1] ""  CDU
  SG_ HVAC_AutoSt : 30|1@0+ (1,0) [0|1] ""  CDU
  SG_ HVAC_Type : 31|1@0+ (1,0) [0|1] ""  CDU
@@ -80,14 +80,14 @@ BO_ 800 HVAC_1: 8 HVAC
  SG_ HVAC_TelematicsSt : 42|3@0+ (1,0) [0|7] ""  CDU
  SG_ HVAC_AirCirculationSt : 46|2@0+ (1,0) [0|3] ""  CDU
  SG_ HVAC_PopUpDisplayReq : 47|1@0+ (1,0) [0|1] ""  CDU
- SG_ HVAC_DriverTempSelect : 53|5@0+ (0.5,18) [18|32] "¡ãC"  CDU
+ SG_ HVAC_DriverTempSelect : 53|5@0+ (0.5,18) [18|32] "Â¡Ã£C"  CDU
  SG_ HVAC_IonMode : 55|2@0+ (1,0) [0|3] ""  CDU
  SG_ HVAC_WindExitSpd : 59|4@0+ (1,0) [0|15] ""  CDU
  SG_ HVAC_PsnTempSelect : 48|5@0+ (0.5,18) [18|32] ""  CDU
 
 BO_ 801 HVAC_2: 8 HVAC
- SG_ HVAC_RawCabinTemp : 7|8@0+ (0.5,-40) [-40|87.5] "¡ãC"  CDU
- SG_ HVAC_CorrectedCabinTemp : 15|8@0+ (0.5,-40) [-40|87.5] "¡ãC"  CDU
+ SG_ HVAC_RawCabinTemp : 7|8@0+ (0.5,-40) [-40|87.5] "Â¡Ã£C"  CDU
+ SG_ HVAC_CorrectedCabinTemp : 15|8@0+ (0.5,-40) [-40|87.5] "Â¡Ã£C"  CDU
  SG_ HVAC_RawCabinTempVD : 19|1@0+ (1,0) [0|1] ""  CDU
  SG_ HVAC_CompressorComsumpPwr : 17|10@0+ (10,0) [0|8000] "w"  BCM
  SG_ HVAC_PTCPwrAct : 33|10@0+ (10,0) [0|8000] "w"  BCM
@@ -125,3 +125,8 @@ BO_ 868 PTC_1: 8 PTC
  SG_ PTC_Current : 15|8@0+ (0.2,0) [0|25.4] "A"  HVAC
  SG_ PTCPwrAct : 23|10@0+ (10,0) [0|8000] "w"  HVAC
  SG_ PTCActst : 26|3@0+ (1,0) [0|7] ""  HVAC
+ 
+ 
+ 
+ 
+ 
